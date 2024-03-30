@@ -1,0 +1,45 @@
+
+
+.middle-area{
+    width:90%;
+    margin:auto;
+}
+.header-area{
+    display:flex;
+}
+.header-area img{
+    width:480px;
+}
+h1{
+    font-size: 50px;
+    font-family: tahoma;
+    font-weight: normal;
+}
+h2{
+    font-size: 50px;
+    font-family: tahoma;
+    font-weight: normal;  
+}
+h2 u{
+    color:rgb(228, 87, 110);
+    text-decoration: none;
+}
+h3{
+    font-size:22px;
+}
+p{
+    font-size: 20px;
+    width:80%;
+}
+a{
+    background:linear-gradient(rgb(248, 157, 172), rgb(185, 26, 53));
+    padding:10px 40px;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: tahoma;
+
+}
+a:hover{
+    background:linear-gradient( rgb(185, 26, 53), rgb(248, 157, 172));  
+}
