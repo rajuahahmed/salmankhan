@@ -6,6 +6,8 @@
 }
 .header-area{
     display:flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .header-area img{
     width:480px;
@@ -42,4 +44,64 @@ a{
 }
 a:hover{
     background:linear-gradient( rgb(185, 26, 53), rgb(248, 157, 172));  
+}
+.header-area-2{
+    display:flex;
+    margin-top: 130px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.header-area-2 img{
+    width:480px;
+    margin-right: 259px;
+}
+#exp{
+    color:rgb(201, 126, 7);
+    margin-top: 84px;
+}
+.header-area-3{
+    display:flex;
+}
+#a{
+    color:red;
+}
+#b{
+    color:yellow;
+}
+#c{
+    color:blue;
+}
+#d{
+    color:gray;
+}
+#e{
+    color:pink;
+}
+#f{
+    color:brown;
+}
+.header-area-3 .bbb{
+    width:50%;
+    background-color: wheat;
+    margin-right: 250px;
+    box-shadow: 10px 10px 10px red;
+    padding: 20px;
+    
+}
+.header-area-3 .bbbb{
+width:50%;
+background-color: wheat;
+box-shadow: 10px 10px 10px red;
+padding: 20px;
+}
+#ccc{
+color: green;
+}
+footer{
+    margin-top: 84px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
 }
